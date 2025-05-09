@@ -17,25 +17,16 @@ function App() {
     <Navbar></Navbar>
     <Header></Header>
     <Hero></Hero>
-{/* 
+
     <div className="container grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto p-6 items-start">
   <main className="md:col-span-2 space-y-6">
     <Artical />
     <Table />
   </main>
   <Aside />
-</div> */}
-
- <div className='container flex flex-col md:flex-row mx-auto p-6'>
-        <main className='flex-1'>
-          <Artical />
-          <Table />
-        </main>
-        <Aside />
-      </div>
-
-    <Footer></Footer>
-    </div>
+</div>
+<Footer/>
+</div>
   )
 }
 
